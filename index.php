@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Day-app</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   
@@ -13,25 +14,25 @@
   $dayofweek = date("w");
 switch ($dayofweek){
   case 1:
-    echo "It is Monday!";
+    echo "<p>It is Monday!<p>";
     break;
     case 2:
-    echo "It is tuesday!";
+    echo "<p>It is tuesday!<p>";
     break;
     case 3:
-    echo "It is Wednesday!";
+    echo "<p>It is Wednesday!<p>";
     break;
     case 4:
-    echo "It is Thursday!";
+    echo "<p>It is Thursday!<p>";
     break;
     case 5:
-    echo "It is Friday!";
+    echo "<p>It is Friday!<p>";
     break;
     case 6:
-    echo "It is Saturday!";
+    echo "It is Saturday!<p>";
     break;
     case 0:
-    echo "It is Sunday!";
+    echo "<p>It is Sunday!<p>";
     break;
 }
 ?>
